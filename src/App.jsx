@@ -1,11 +1,14 @@
+//React
 import { Fragment } from 'react';
+//Pages
+import { HomePage } from './modules/app/pages';
 
 
 function App() {
 
   return (
     <Fragment>
-      <h1>Hello World</h1>
+      <HomePage />
     </Fragment>
   )
 }

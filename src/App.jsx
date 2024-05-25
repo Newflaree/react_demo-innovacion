@@ -1,10 +1,18 @@
-import { useState } from 'react'
+// React
+import {
+  Fragment,
+} from 'react'
+// Components
+import { Navbar } from './modules/app/ui';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>TEST</h1>
+    <Fragment>
+      <div>
+        <Navbar />
+      </div>
+    </Fragment>
   )
 }
 

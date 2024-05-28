@@ -1,16 +1,7 @@
-//React
-import { Fragment } from 'react';
-//Pages
-import { HomePage } from './modules/app/pages';
-
+import { AppRouter } from './router';
 
 function App() {
-
-  return (
-    <Fragment>
-      <HomePage />
-    </Fragment>
-  )
+  return <AppRouter />
 }
 
 export default App

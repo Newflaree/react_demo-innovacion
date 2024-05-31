@@ -1,1 +1,6 @@
+export * from './AllianceView'
+export * from './ContactView'
+export * from './HeadQuartersView'
 export * from './HomeView'
+export * from './StorageView'
+export * from './UsersView'
